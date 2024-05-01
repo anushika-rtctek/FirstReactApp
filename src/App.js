@@ -34,13 +34,17 @@ import User from './Components/User';
 import CounterTwo from './Components/CounterTwo';
 import { UserProvider } from './Components/UserContext';
 import ComponentC from './Components/ComponentC';
+import PostList from './Components/PostList';
+import PostForm from './Components/PostForm';
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value="Anushika">
-        <ComponentC/>
-      </UserProvider>
+      <PostForm/>
+      {/* <PostList/> */}
+      {/* <UserProvider value="Anushika"> */}
+        {/* <ComponentC/> */}
+      {/* </UserProvider> */}
       {/* <CounterTwo render={(count, incrementCount) => 
         <ClickCounterTwo count={count} incrementCount={incrementCount}/>}/>
       <CounterTwo render={(count, incrementCount) => 
